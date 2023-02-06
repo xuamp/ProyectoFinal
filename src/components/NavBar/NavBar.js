@@ -11,7 +11,7 @@ function NavBar(props) {
     <div className="NavBar">
       <div className="imagen">
         <Link to="/">
-          <img src="logo.jpeg" alt="logo" />
+          <img src="imagenes/logo.png" alt="logo" />
         </Link>
       </div>
       <div className="Nav">
