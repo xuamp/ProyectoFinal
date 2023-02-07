@@ -93,4 +93,10 @@ luego de unos minutos, se abrira en el navegador el proyecto
 
 ## Deploy
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Link: https://proyecto-final-khaki.vercel.app/
+
+## Contacto
+
+Programador Front-end
+
+Instagram: Damian.ocampo03
