@@ -6,7 +6,7 @@ El carrito de compra se va llenando a medida que uno va seleccionando productos,
 
 Cuando se toca el detalle de cada producto, se redirecciona a una pagina donde aparecen los datos del mismo y la opcion de agregar la cantidad deseada por el usuario al carrito
 
-Una vez seleccionado todos los productos y agregados al carrito, la pagina redirecciona al usuario a un formulario para que complete con sus datos y asi poder generar la orden de compra 
+Una vez seleccionado todos los productos y agregados al carrito, la pagina redirecciona al usuario a un formulario para que complete con sus datos y asi poder generar la orden de compra
 
 Tanto la orden de compra como los datos de los productos estan contenidos en una base de datos, que brinda el servicio de Firebase
 
@@ -30,11 +30,9 @@ Las dependencias usadas en este proyecto son:
 
     web-vitals: 2.1.4
 
+### `2. firebase: 9.16.0`
 
- ### `2. firebase: 9.16.0` 
- 
 Es un servicio gratuito de google que nos permite gener una base de datos, con distintas tablas. En este proyecto se utliza para almacenar en una base de datos toda la informacion de cada producto que luego se muestra en la app, y almacenar la base de datos con las ordenes de compra generadas por cada usuario
-
 
 ### ` 3. react-router-dom": 6.6.1`
 
@@ -60,8 +58,39 @@ En el archivo index.html, dentro de la etiqueta "head" se debe importar los sigu
       referrerpolicy="no-referrer"
     />
 
-estos permiten importar las fuentes usadas a lo largo de la app, como asi tambien algunos iconos utilizados 
+estos permiten importar las fuentes usadas a lo largo de la app, como asi tambien algunos iconos utilizados
 
-### `npm run build` fails to minify
+## Pasos para ejecutar el codigo
+
+1. Abrir en el escritorio GIT
+
+![imagen](public/Imagenes/primera.jpg)
+ 
+2. ir al repositorio https://github.com/xuamp/ProyectoFinal, y copiar la URL del repositorio
+
+![imagen](public/Imagenes/segunda.jpg)
+
+3. en GIT usar el comando "git clone" y a continuacion pegar la URL del repositorio
+
+![imagen](public/Imagenes/git%20clone.jpg)
+
+4. Luego ir a la carpeta del proyecto, escribiendo el comando "cd ProyectoFinal"
+
+![imagen](public/Imagenes/cd.jpg)
+
+5. Escribir el comando "npm i" para instarlar todas las dependencias del proyecto y poder ejecutarlo de la manera correcta
+
+![imagen](public/Imagenes/npm%20i.jpg)
+
+6. Por ultimo ejecutar el comando "npm start" para inicializar el proyecto en el navegador
+
+![imagen](public/Imagenes/npm%20start.jpg)
+
+luego de unos minutos, se abrira en el navegador el proyecto
+
+
+
+
+## Deploy
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
