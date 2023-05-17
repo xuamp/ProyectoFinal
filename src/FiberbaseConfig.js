@@ -2,12 +2,17 @@ import { initializeApp } from "firebase/app";
 import { collection, getFirestore } from "firebase/firestore";
 
 const firebaseConfig = {
-  apiKey: "AIzaSyCE_0LoNRTmHJszgC1gP1iMKNkoptfFwG4",
-  authDomain: "papelera-ecommerce.firebaseapp.com",
-  projectId: "papelera-ecommerce",
-  storageBucket: "papelera-ecommerce.appspot.com",
-  messagingSenderId: "199855853674",
-  appId: "1:199855853674:web:25d26ec24afc74344afa13",
+  apiKey: "AIzaSyBOfkUcBrZT_iB_6OogHcS3KHdG9EdngwU",
+
+  authDomain: "base01-dami.firebaseapp.com",
+
+  projectId: "base01-dami",
+
+  storageBucket: "base01-dami.appspot.com",
+
+  messagingSenderId: "817270566875",
+
+  appId: "1:817270566875:web:3002da49195fe7a2d941fe",
 };
 
 const app = initializeApp(firebaseConfig);
