@@ -6,7 +6,7 @@ import { useContext, useState } from "react";
 
 function NavBar(props) {
   const { hayItems } = useContext(contexto);
-  const [isOpen, setIsOpen] = useState(true);
+  const [isOpen, setIsOpen] = useState(false);
 
   return (
     <div className="NavBar">
