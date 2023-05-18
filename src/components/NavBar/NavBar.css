@@ -6,6 +6,10 @@
   justify-content: space-between;
 }
 
+.navbar-toogle {
+  display: none;
+}
+
 .imagen {
   height: 20vh;
   width: 20%;
@@ -18,6 +22,9 @@
 
 .Nav {
   width: 58%;
+  display: flex;
+  justify-content:end;
+  align-items: center;
 }
 
 .Nav ul {
@@ -29,6 +36,9 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+  border-bottom-left-radius: 1.5em;
+  border-bottom-right-radius: 1.5em;
+  transition: all 0.8s linear;
 }
 
 .Nav li {
@@ -59,4 +69,47 @@
   color: #3abfbc;
   text-shadow: 0 0 4px grey;
   flex-basis: 25%;
+}
+
+@media (max-width: 798px) {
+  .Nav ul {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 20vh;
+    left: 0;
+    height: auto;
+    background-color: #3abfbc;
+    transform: translateX(-100%);
+  }
+.NavBar {
+  display: flex;
+  justify-content: space-between;
+}
+
+
+  .Nav.open ul {
+    transform: translateX(0%);
+    transition: 0.8s ease-in all;
+  }
+
+  .navbar-toogle span {
+    width: 50px;
+    height: 10px;
+    background: rgb(47, 65, 77);
+    margin-bottom: 5px;
+    border-radius: 2px;
+    transform-origin: 5px 0px;
+    transition: all 0.2s linear;
+  }
+
+  .navbar-toogle {
+    display: flex !important;
+    flex-direction: column;
+    margin: 15px;
+  }
+
+  .Nav li {
+    font-size: 40px;
+  }
 }

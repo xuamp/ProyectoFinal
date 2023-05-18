@@ -22,7 +22,8 @@
 
 .carrito {
   width: 150px;
-  background-color: rgb(107, 107, 100);
+  background-color: rgb(42, 46, 241);
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   margin-left: auto;
   margin-right: auto;
   height: auto;
@@ -63,5 +64,18 @@
 @media (max-width: 768px) {
   .ItemDetail {
     width: 90%;
+    height:88%;
+  }
+
+  .ImagenDetail {
+    width: 90%;
+  }
+
+  .tituloDetail{
+    margin: 5px;
+  }
+
+  .descripcionDetail{
+    height: auto;
   }
 }

@@ -2,10 +2,11 @@ import { Link } from "react-router-dom";
 import CartWidget from "../CartWidget/CartWidget";
 import "./NavBar.css";
 import { contexto } from "../Context/CartContex";
-import { useContext } from "react";
+import { useContext, useState } from "react";
 
 function NavBar(props) {
   const { hayItems } = useContext(contexto);
+  const [isOpen, setIsOpen] = useState(true);
 
   return (
     <div className="NavBar">
@@ -14,7 +15,7 @@ function NavBar(props) {
           <img src="Imagenes/logo.jpeg" alt="logo" />
         </Link>
       </div>
-      <div className="Nav">
+      <div className={`Nav ${isOpen && "open"}`}>
         <ul>
           <div className="item-nav">
             <Link to="/category/cocina">
@@ -44,6 +45,14 @@ function NavBar(props) {
             <li>{hayItems ? <CartWidget /> : undefined}</li>
           </div>
         </ul>
+        <div
+          className={`navbar-toogle ${isOpen && "open"}`}
+          onClick={() => setIsOpen(!isOpen)}
+        >
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
       </div>
     </div>
   );
