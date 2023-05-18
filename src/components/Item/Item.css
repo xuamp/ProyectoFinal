@@ -60,8 +60,8 @@ a {
   transition: 0.2s ease;
 }
 
-@media screen and (max-width: 900px) {
+@media (max-width: 768px) {
   .Item {
-    width: 60%;
+    width: 100%;
   }
 }
