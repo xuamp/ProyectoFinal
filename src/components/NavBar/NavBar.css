@@ -23,7 +23,7 @@
 .Nav {
   width: 58%;
   display: flex;
-  justify-content:end;
+  justify-content: end;
   align-items: center;
 }
 
@@ -80,13 +80,14 @@
     left: 0;
     height: auto;
     background-color: #3abfbc;
+    height: -webkit-fill-available;
     transform: translateX(-100%);
   }
-.NavBar {
-  display: flex;
-  justify-content: space-between;
-}
 
+  .NavBar {
+    display: flex;
+    justify-content: space-between;
+  }
 
   .Nav.open ul {
     transform: translateX(0%);
