@@ -2,18 +2,21 @@ import { initializeApp } from "firebase/app";
 import { collection, getFirestore } from "firebase/firestore";
 
 const firebaseConfig = {
-  apiKey: "AIzaSyBOfkUcBrZT_iB_6OogHcS3KHdG9EdngwU",
 
-  authDomain: "base01-dami.firebaseapp.com",
+  apiKey: "AIzaSyB_AFfFdAcezFEiw-rL4DtyC_rUwAh0aK0",
 
-  projectId: "base01-dami",
+  authDomain: "base-nueva-c8b96.firebaseapp.com",
 
-  storageBucket: "base01-dami.appspot.com",
+  projectId: "base-nueva-c8b96",
 
-  messagingSenderId: "817270566875",
+  storageBucket: "base-nueva-c8b96.appspot.com",
 
-  appId: "1:817270566875:web:3002da49195fe7a2d941fe",
+  messagingSenderId: "925185255674",
+
+  appId: "1:925185255674:web:2932aebefb90ea2cda4143"
+
 };
+
 
 const app = initializeApp(firebaseConfig);
 const db = getFirestore(app);
